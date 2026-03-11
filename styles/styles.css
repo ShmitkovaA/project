@@ -1,0 +1,48 @@
+/*задает стильи для всего тела документа*/
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0; /*убирает стандартные отступы браузера по краям*/
+    align-items: center; /*выравнивает дочерние эл-ты по центу горизонтали*/
+    min-width: 1280px;
+    height: auto; /*высота подстраивается автоматически*/
+}
+.page-header{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(168, 166, 166); /*устанавливает фон*/
+    justify-content: center;
+    min-width: 1280px; /*минимальная ширина шапки*/
+    min-height: 113px;
+ } /*минимальная высота шапки*/
+.header-cjntantiher {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header-cjntantiher > a > img{
+    display: block; /*делает картинку блочной, чтобы убрать лишний отступ снизу*/
+    width: 103px;
+    height: 56px;
+    margin-left: 30px;
+}
+.nav{
+    margin-left: 700px;
+}
+/*горизонтальное меню*/
+.nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+/*добавлеет отступы для каждого меню слева и справа*/
+.nav li{
+    margin-left: 25px; 
+    margin-right: 25px; 
+}
+.nav a{
+    text-decoration: none;
+    color: #0b7572;
+    font-size: 24px;
+    font-family:'Exo2'
+}

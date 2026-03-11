@@ -1,0 +1,15 @@
+/*подключение шрифта Exo2*/
+@font-face{
+    font-family: 'Exo2';
+    src: url("../fonts/Exo2-VariableFont_wght.ttf"); /*путь к файлу*/
+    font-weight: normal; /*насыщеность шрифта*/
+    font-style: normal; /*прямое начертание(не курсив)*/
+    font-display: swap;
+}
+@font-face{
+    font-family: 'PTSans';
+    src: url("../fonts/PTSansNorrow-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
