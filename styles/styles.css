@@ -4,30 +4,33 @@ body{
     flex-direction: column;
     margin: 0; /*убирает стандартные отступы браузера по краям*/
     align-items: center; /*выравнивает дочерние эл-ты по центу горизонтали*/
-    min-width: 1280px;
-    height: auto; /*высота подстраивается автоматически*/
+    max-width: 100%;
+    height: auto;
 }
 .page-header{
     display: flex;
     flex-direction: column;
     background-color: rgb(168, 166, 166); /*устанавливает фон*/
+    background-repeat: no-repeat;
     justify-content: center;
-    min-width: 1280px; /*минимальная ширина шапки*/
-    min-height: 113px;
- } /*минимальная высота шапки*/
-.header-cjntantiher {
+    align-items: center;
+    width: 100%; /*минимальная ширина шапки*/
+    max-width: 1440px; /*ограничение максимальной ширины*/
+    min-height: 113px; 
+ } 
+.header-contantiher {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
-.header-cjntantiher > a > img{
+.header-contantiher > a > img{
     display: block; /*делает картинку блочной, чтобы убрать лишний отступ снизу*/
     width: 103px;
     height: 56px;
-    margin-left: 30px;
+    margin-left: 10px;
 }
 .nav{
-    margin-left: 700px;
+    margin-left: 800px;
 }
 /*горизонтальное меню*/
 .nav ul{
@@ -43,6 +46,6 @@ body{
 .nav a{
     text-decoration: none;
     color: #0b7572;
-    font-size: 24px;
-    font-family:'Exo2'
+    font-size: 28px;
+    font-family:'Exo2_Regular', Arial, sans-serif; /*Добовлен запасной шрифт*/
 }
