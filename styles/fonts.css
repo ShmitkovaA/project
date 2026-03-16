@@ -1,23 +1,23 @@
 /*подключение шрифта Exo2*/
 @font-face{
-    font-family: 'Exo2_regular';
+    font-family: 'Exo2';
     src: url("../fonts/Exo2-Regular.ttf"); /*путь к файлу*/
-    font-weight: normal; /*насыщеность шрифта*/
+    font-weight: 400; /*насыщеность шрифта*/
     font-style: normal; /*прямое начертание(не курсив)*/
     font-display: swap;
 }
 @font-face{
-    font-family: 'Exo2_Bold';
+    font-family: 'Exo2';
     src: url("../fonts/Exo2-Bold.ttf"); /*путь к файлу*/
-    font-weight: normal; /*насыщеность шрифта*/
+    font-weight: 700; /*насыщеность шрифта*/
     font-style: normal; /*прямое начертание(не курсив)*/
     font-display: swap;
 }
 @font-face{
-    font-family: 'Exo2_Italic';
+    font-family: 'Exo2';
     src: url("../fonts/Exo2-Italic.ttf"); /*путь к файлу*/
-    font-weight: normal; /*насыщеность шрифта*/
-    font-style: normal; /*прямое начертание(не курсив)*/
+    font-weight: 400; /*насыщеность шрифта*/
+    font-style: italic; /*прямое начертание(не курсив)*/
     font-display: swap;
 }
 @font-face{
