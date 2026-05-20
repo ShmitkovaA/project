@@ -22,8 +22,8 @@
 }
 @font-face{
     font-family: 'PTSans';
-    src: url("../fonts/PTSansNorrow-Regular.ttf");
-    font-weight: normal;
+    src: url("../fonts/PTSans-Regular.ttf");
+    font-weight: 400;
     font-style: normal;
     font-display: swap;
 }
