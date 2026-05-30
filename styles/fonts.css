@@ -9,7 +9,7 @@
 @font-face{
     font-family: 'Exo2';
     src: url("../fonts/Exo2-Bold.ttf"); /*путь к файлу*/
-    font-weight: 700; /*насыщеность шрифта*/
+    font-weight: 600; /*насыщеность шрифта*/
     font-style: normal; /*прямое начертание(не курсив)*/
     font-display: swap;
 }
