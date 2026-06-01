@@ -27,9 +27,9 @@ body {
     align-items: center;
     width: 100%;
     /*минимальная ширина шапки*/
-    max-width: 1440px;
+    max-width: 90rem;/*1440px*/
     /*ограничение максимальной ширины*/
-    min-height: 113px;
+    min-height: 7.0625rem;/*113px*/
 }
 
 .header-contantiher {
@@ -41,13 +41,13 @@ body {
 .header-contantiher>a>img {
     display: block;
     /*делает картинку блочной, чтобы убрать лишний отступ снизу*/
-    width: 103px;
-    height: 56px;
+    width: 6.4375 rem;/*103px*/
+    height: 3.5 rem;/*56px*/
 
 }
 
 .nav {
-    margin-left: 700px;
+    margin-left: 43.75rem;/*700px*/
 }
 
 /*горизонтальное меню*/
@@ -59,14 +59,14 @@ body {
 
 /*добавлеет отступы для каждого меню слева и справа*/
 .nav li {
-    margin-left: 20px;
-    margin-right: 25px;
+    margin-left: 1.25rem; /*20px*/
+    margin-right: 1.5626; /*25px*/
 }
 
 .nav a {
     text-decoration: none;
     color: #0b7572;
-    font-size: 28px;
+    font-size: 1.75rem; /*28px*/
     font-family: 'Exo2', Arial, sans-serif;
     /*Добовлен запасной шрифт*/
 }
