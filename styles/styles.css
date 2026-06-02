@@ -1527,10 +1527,7 @@ body {
     }
 
     .our-contacts {
-        flex-direction:
-
-
-umn;
+        flex-direction:column;
         gap: 50px;
     }
 
