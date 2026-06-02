@@ -1265,8 +1265,8 @@ body {
     display: flex;
 }
 
-@media (max-width: 768px) {
-   body {
+@media (min-width: 768px) and (max-width: 1024px) {
+    body {
         overflow-x: hidden;
     }
 
@@ -1527,7 +1527,10 @@ body {
     }
 
     .our-contacts {
-        flex-direction: column;
+        flex-direction:
+
+
+umn;
         gap: 50px;
     }
 
@@ -1605,5 +1608,8 @@ body {
     .video-image__play {
         width: 72px;
         height: 72px;
-    } 
+    }
 }
+
+
+
